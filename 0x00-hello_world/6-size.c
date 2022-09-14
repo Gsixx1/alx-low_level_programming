@@ -8,7 +8,7 @@
  * 1) You should produce the exact same output as in the example
  * 2) Warnings are allowed
  * 3) Your program should return 0
- * 4) You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
+ * 4) You might have to install the package libc6-dev-i386
  * Return: 0
  */
 int main(void)
