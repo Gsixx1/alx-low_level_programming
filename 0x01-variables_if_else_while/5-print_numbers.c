@@ -21,5 +21,6 @@ int main(void)
 {
 	printf("%d", baseTen);
 }
+	printf("\n");
 	return (0);
 }
