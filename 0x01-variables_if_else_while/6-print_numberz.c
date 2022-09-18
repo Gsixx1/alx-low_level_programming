@@ -20,6 +20,5 @@ int main(void)
 	putchar(baseTen);
 }
 	putchar('\n');
- 
 	return (0);
 }
