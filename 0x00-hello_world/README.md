@@ -39,7 +39,9 @@ How does the main function influence the return value of the program
 
 . Everything you need to know to start with C.pdf - (You do not have to learn everything in there yet, but make sure you read it entirely first) [  https://alx-intranet.hbtn.io/rltoken/P01aLj9BDfDUOv-y9x82Yw ]
 . Dennis Ritchie - [ https://alx-intranet.hbtn.io/rltoken/YWFrRob_-Yo-_NQikMLI-g ]
+
 . “C” Programming Language: Brian Kernighan [ https://alx-intranet.hbtn.io/rltoken/W4oygfMgAp5Hyc7o6QuSYQ ]
+
 . Why C Programming Is Awesome [ https://alx-intranet.hbtn.io/rltoken/WYdE1novaWa0yt5fzGvLBw ]
 . Learning to program in C part 1 [ https://alx-intranet.hbtn.io/rltoken/aE_pZLbexuLroHA0FmjLbw ]
 . Learning to program in C part 2 [ https://alx-intranet.hbtn.io/rltoken/3a5y1N-0FlTaPbKRxlRLlQ ]
