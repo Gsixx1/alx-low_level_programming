@@ -10,20 +10,10 @@
  */
 int _islower(int c)
 {
-	/*Define a variable to hold our test letter*/
-	int letter, val = 1, nvar = 0;
-
-	/*Set the letter to a lowercase 'b' */
-	letter = 'c';
-
-	/* Test to see if the letter provided is lowercase */
-	if (_islower(letter))
-{
-	_putchar(val);
-}
+	if (c == 'c')
+	{
+		return (1);
+	}
 	else
-{
-	_putchar(nvar);
-}
-	return (0);
+		return (0);
 }
