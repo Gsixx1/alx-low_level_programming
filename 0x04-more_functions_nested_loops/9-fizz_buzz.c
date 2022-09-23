@@ -1,38 +1,31 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
-*print_number - prints an integer.
-*
-*@n: integer
-*
-*Return: void
-*/
-
-void print_number(int n)
+ * main - function that checks for uppercase character.
+ * Return: 0
+ */
+int main(void)
 {
-	unsigned int m, d, count;
+	int h = 1;
 
-	if (n < 0)
+	while (h <= 100)
 	{
-		_putchar(45);
-		m = n * -1;
+		if (h % 3 == 0 && h % 5 == 0)
+			printf("FizzBuzz ");
+		else if (h % 5 == 0)
+		{
+			if (h == 100)
+			{
+				printf("Buzz");
+				printf("\n");
+			}
+			else
+				printf("Buzz ");
+		}
+		else if (h % 3 == 0)
+			printf("Fizz ");
+		else
+			printf("%d ", h);
+	h++;
 	}
-	else
-	{
-		m = n;
-	}
-
-	d = m;
-	count = 1;
-
-	while (d > 9)
-	{
-		d /= 10;
-		count *= 10;
-	}
-
-	for (; count >= 1; count /= 10)
-	{
-		_putchar(((m / count) % 10) + 48);
-	}
+return (0);
 }
