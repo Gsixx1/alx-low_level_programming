@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_square -prints square
- * @size: function parameter.
- * Return: nothing
- */
+*print_square - prints squares
+*@size: parameter
+*Return: returns nothing
+*/
 
 void print_square(int size)
 {
@@ -17,14 +17,15 @@ void print_square(int size)
 		{
 			for (inc2 = 0; inc2 < (size - 1); inc2++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			_putchar('#');
-			_putcahr('\n');
+
+			putchar('#');
+			putchar('\n');
 		}
 	}
 	else
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 }
